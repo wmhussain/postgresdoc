@@ -20,14 +20,19 @@
     > The button launches an interactive shell that you can use to run all of the steps required to create and manage an Ubuntu Linux VM.
 
 2. Once the shell launches, you will see **"Welcome to Azure Cloud Shell"**.  Click on the **Bash (Linux)** option at the bottom
-![Create Storage](imgs/cli-storage.png)   
+<img src="/imgs/25selectbash.jpg"/>   
 
-3. In the **"You have no storage mounted"** tab, click **Show Advanced Settings**
+3. In the **"You have no storage mounted"** tab, click **Show Advanced Settings**.
+<img src="/imgs/26advanced_settings.jpg"/>
+
 4. In the **Advanced Settings** tab, use the existing **Resource Group** and enter a unique name for the **Storage Account** and **File Share**
 5. Click **Create Storage** 
-6. Once the storage gets created, your **Cloud Shell** will initialize and very shortly be ready to use
+<img src="/imgs/27create_storage.jpg"/>
 
-    ![Shell is Ready](imgs/shell.png)      
+6. Once the storage gets created, your **Cloud Shell** will initialize and very shortly be ready to use.
+<img src="/imgs/28bashshell.jpg"/>
+
+       
     
     > Note: the Resource Group name, the Storage Account, and the File Share you created are displayed in the CLI while it initializes.
     > 
