@@ -44,7 +44,16 @@
      
     Type or copy and paste the following into the Azure command line:
 
-     <span style="color:blue"> az postgres server create --resource-group rg_name<inject story-id="story://Content-Private/content/dfd/SP-OSS/postgresql/ossexperience1/story_a_postgresql" key="resourceGroupName" /> --name postgresql<inject story-id="story://Content-Private/content/dfd/SP-OSS/postgresql/ossexperience1/story_a_postgresql" key="resourceGroupName" /> --location southcentralus --admin-user pgsqluser --admin-password P@ssword1 --performance-tier Basic --compute-units 50 --version 9.6
+     <span style="color:blue"> az postgres server create --resource-group **rg_name** --name **postgresql** --location **southcentralus** --admin-user **pgsqluser** --admin-password **P@ssword1** --performance-tier **Basic** --compute-units **50** --version **9.6**
+
+* Resource-group : Provide the RG, that you earlier created.
+* Name: Provide the PostgreSQL server name,that must be unique.
+* Location: Provide the RG location
+* Admin-user: Provide the suitable name
+* Admin-password: Provide the suitable password
+* Performance-tier: Basic
+* Compute-units: 50
+* Version; 9.6
 
     > **Note:** Be sure to remember your **user name** and **password** as you will need to use it later for your connection information.
 
