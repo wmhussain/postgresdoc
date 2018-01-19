@@ -113,12 +113,12 @@
 
     <span style="color:blue"> \q
   
-  ####Login an Azure VM running Ubuntu Server   
+#### Login an Azure VM running Ubuntu Server   
   
  Ubuntu server is predeployed with all the necessary requirements as a part of lab and credentials will be shared on mail.
  
- #### Run the Bootcamp Application
- 4. We are now ready to install our Bootcamp application that we will use with PostgreSQL. We will need to download a copy from GitHub.
+#### Run the Bootcamp Application
+4. We are now ready to install our Bootcamp application that we will use with PostgreSQL. We will need to download a copy from GitHub.
 
 5. To connect to GitHub and pull the code for Bootcamp, type the following command and hit **Enter**:
 
